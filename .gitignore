@@ -1,5 +1,11 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+*.class
+yarn.lock
+*.jar
+*.exe
 
-# Ignore Gradle build output directory
-build
+bin/
+build/
+**/node_modules/
+.recommenders/
+.metadata/
+.gradle/
